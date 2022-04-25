@@ -61,7 +61,7 @@ body {
     margin-bottom: 80px;
 }
 
-.curvy-bg {
+.curvybg {
     position: relative;
     bottom: -10px;
     width: 98.7vw;
@@ -69,6 +69,9 @@ body {
     height: 200px;
 }
 
+.curvy-bg {
+    display: none;
+}
 
 .div3 {
     max-width: 570px;
@@ -175,6 +178,11 @@ body {
         box-sizing: border-box;
         z-index: -1;
         height: 190px;
+        display: block;
+    }
+
+    .curvybg {
+        display: none;
     }
     
     .div3 {
@@ -273,28 +281,19 @@ body {
         position: relative;
     }
 
-    
-    
-    .div2 {
-        background-image: url("./image/bg-curvy-mobile.svg");
-       
-        max-width: 100%;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        bottom: 0;
-        z-index: -1;
-    }
-
     .curvy-bg {
         position: relative;
-        bottom: 40px;
+        bottom: 20px;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
         z-index: -1;
         height: 200px;
+        display: block;
+    }
+    
+    .curvybg {
+        display: none;
     }
     
     .illustration {
